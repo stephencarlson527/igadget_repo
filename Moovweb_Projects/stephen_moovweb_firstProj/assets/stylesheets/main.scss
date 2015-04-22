@@ -1,9 +1,15 @@
+// This is where you can write custom css and import custom style sheets
+
+@import "globals/_sprites";
 @import "globals/uranium";
 @import "globals/bourbon/bourbon";
 @import "globals/bourbon_fix";
 
-// Import global base styles
-@import "globals/base";
+
+
+@import "globals/_variables";
+@import "globals/_lib";
+@import "globals/_base";
 
 // Header & Footer
 @import "sections/header";

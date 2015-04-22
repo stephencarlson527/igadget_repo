@@ -4,14 +4,14 @@ $("/html") {
   add_canonical_tag()
   rewrite_links()
   # Rewrite relative image paths to point to original desktop site.
-
 # Add the mobile meta tags 
 clean_mobile_meta_tags()
    
 # Remove styles and comments
-# remove_all_styles()
-remove_html_comments()
+  remove_all_styles()
+  remove_html_comments()
   absolutize()
+  #remove_all_images()
   rewrite_aspnet_scripts()
 
   add_assets()

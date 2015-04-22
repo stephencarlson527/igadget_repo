@@ -1,0 +1,38 @@
+// colors
+$color1: #B03B01; // header color
+$color2: #075899; // link color
+$text_color: #000; // text color
+$footer_color: #fff;
+
+
+// font family
+$font_family: Arial, sans-serif;
+$font_size: 12px;
+$h3_size: 16px;
+
+
+// border 
+$border1: 1px solid;
+$border2: 1px solid;
+
+//spacing
+$spacing: 1px;
+
+// body link color
+$color5: #255AA5;
+// hr link color
+$color6: #255AA5;
+
+
+
+// linear gradient
+$grad1: linear-gradient(top, #852201, #6a1b00);
+
+$box_shadow: 10px 5px 5px black;
+
+#Header {
+  background: $color1;
+  a {
+    color: $color2;
+  }
+}

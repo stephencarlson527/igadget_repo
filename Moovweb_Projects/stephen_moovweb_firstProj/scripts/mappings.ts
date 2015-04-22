@@ -35,3 +35,8 @@ match($status) {
   }
 
 }
+
+with(/shop/) {
+  log("--> Importing pages/category.ts in mappings.ts")
+  @import pages/category.ts
+}
