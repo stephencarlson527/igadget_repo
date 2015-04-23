@@ -22,15 +22,15 @@
   }
    #TopMenu{
    	float:right;
-   	width:35%;
+   	width:32%;
 	    .mw_cart_btn  {
 	  		float:left;
-	  		margin-left: 20px;
+	  		
 	    }
 	    .mw_user_btn  {
 	  		float:right;
-	  		margin-right: 10px;
-	   }
+	  		padding-right: 8px;
+	    }
   }
   .mw_header_bottom {
     width: 100%;
@@ -61,6 +61,7 @@
       }
     }
     .mw_menu_btn {
+      padding-right:10px;
       float: right;
       display: block;
       &[data-ur-state="enabled"] span {

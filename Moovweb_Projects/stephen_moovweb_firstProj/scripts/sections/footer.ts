@@ -1,16 +1,22 @@
-# $("./body") {
-#   insert("footer", "Powered by Moovweb", class: "mw-footer") {
-#     # Move stuff here
-#   }
-# }
-
-$(".//div[@id='Footer']") {
-	$(".//div[@class='container']") {
-	wrap("/div[@id='Logo']") {
-
-		}
-	}
+ $("./body") {
+  insert("footer", class: "mw-footer") {
+      # Move stuff here
+    	move_here("..//div[@id='Footer']", "top")
+   }
 }
-insert("div", class: "container") {
 
+	$$("#Footer") {
+		remove("./a")
+	  remove("./p")
+		insert("p", "All prices are in USD", class: "line1") 
+		insert("p", "Copyright 2015 iGadgetCommerce.", class: "line2") 
+		insert("p", "powered by:", class: "line3")
+		insert("div", class: "mw-footer-logo sprites-moovweb")
 }
+
+
+
+
+
+
+

@@ -1,0 +1,74 @@
+@mixin category_left {
+
+		.Left {
+		  margin: 5px;
+	  }
+		.ShopByPrice > h2,  .BrandList > h2 {
+			background-color:$bg_color;
+			border-radius: 5px;
+			font-size:14px;
+			font-family:$font_family;
+			color: #fff;
+			padding: 12px;
+
+				.mw_indicator {
+					float: right;
+				}
+				&[data-ur-state="disabled"] {
+         	> .mw_indicator {
+             @extend .sprites-plus;
+          }
+        }
+				&[data-ur-state="enabled"] {
+				  > .mw_indicator {
+				    @extend .sprites-minus;
+				  }
+				}
+	  }
+
+		.ShopByPrice > .BlockContent > ul,  .BrandList > .BlockContent > ul {
+			background-color:#F5F2E1;
+		}
+	  .ShopByPrice > .BlockContent > ul > li,  .BrandList > .BlockContent > ul > li {
+			padding: 10px;
+			border-top: 1px solid #000;
+			border-left: 1px solid #000;
+			border-right: 1px solid #000;
+		}
+	  .ShopByPrice > .BlockContent > ul > li a,  .BrandList > .BlockContent > ul > li a {
+			color:#000;
+			font-family:$font_family;
+		}
+		.mw_arrow {
+		  @include sprites-menu_go;
+		  float: right;
+	  }
+		.ShopByPrice {
+			padding:5px 0px;
+	  }
+}
+
+@mixin category_form{
+	.SortBox {
+		background-color:$bg_color;
+		border-radius: 5px;
+		font-size:14px;
+		font-family:$font_family;
+		color: #fff;
+		padding: 12px;
+		margin: 5px;
+	}
+
+	#sort {
+		@include background(linear-gradient(#C14102 0, shade(#C14102, 20%) 100%));
+		border-radius: 0;
+		border: none;
+		color: #fff;
+		font-family:$font_family;
+		font-size:13px;
+
+
+	}
+}
+
+			
