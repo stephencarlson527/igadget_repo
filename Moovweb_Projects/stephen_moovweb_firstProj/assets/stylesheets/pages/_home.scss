@@ -1,3 +1,23 @@
 body._home {
-	
+	.ProductList li{padding:20px 0;
+			}
+	.ProductActionAdd {
+		background:$bg_color;
+		width:100px;
+		border-radius: 5px;
+		padding:10px;
+		text-align:center;
+		text-size:14px;
+		border: 1px solid #000;
+		box-shadow: 5px 5px 15px #999;
+
+
+			a { color:#fff; 
+			}
+}
+	h2 {
+		text-align: center;
+		font-family: $font_family;
+		padding:10px;
+	}
 }
